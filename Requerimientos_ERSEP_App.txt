@@ -1,0 +1,24 @@
+
+ERSEP TRANSPORTE – Especificaciones de la App
+
+1. FORMULARIO DE ENTRADA:
+- Ingreso de 23 datos variables desde la hoja “Hoja Llave”.
+- Mostrar valores de referencia desde la columna O.
+- Cada campo incluye descripción detallada (ej: MT – Monto anual de la prima para personal de conducción).
+- Ingreso en una sola página con scroll y navegación ágil (Enter salta al siguiente).
+- Formato numérico: coma decimal, punto para miles (ej: 1.234,56).
+
+2. VISUALIZACIÓN DE RESULTADOS:
+- Mostrar tabla generada desde “Resumen de Calculo”.
+- Agregar subtotales por CP (categorías como “Costos del personal”).
+- Agregar columna de incidencia porcentual de cada ítem sobre el total.
+- Mostrar en pantalla con buen diseño y orden.
+
+3. EXPORTACIÓN:
+- Botón de descarga en formato Excel.
+- El archivo descargado contiene exactamente la tabla visualizada.
+- Nombre del archivo: Resumen_Tarifario_ERSEP.xlsx
+
+4. ARCHIVO EXCEL BASE:
+- Nombre: Incremento TBK_ Mesa 13 Octubre 2025.xlsx
+- Ubicación esperada: misma carpeta que el archivo .py
